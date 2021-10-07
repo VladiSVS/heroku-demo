@@ -9,7 +9,13 @@
 </head>
 
 <body>
-    <h1>this is about</h1>
+    <ul>
+        <% articles.forEach(elt=> { %>
+            <li>
+                <%= elt.content %>
+            </li>
+            <% }) %>
+    </ul>
 </body>
 
 </html>
