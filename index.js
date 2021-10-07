@@ -4,7 +4,7 @@ const app = express()
 const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => {
-    res.render('index.ejs', { title: 'home' })
+    res.render('index.ejs', { title: 'heroku' })
 })
 
 app.get('/about', (req, res) => {
